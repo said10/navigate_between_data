@@ -1,0 +1,24 @@
+#container-graph {
+    margin-top: -60px;
+}
+#empty-graph, #graph {
+    height: 450px;
+}
+#empty-graph {
+    padding-top: 220px;
+    border : rgba(0,34,99, 0.2) dashed 3px;
+}
+.message-error-graph {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 220px;
+}
+.element-draggable, body .element-draggable.hover:hover {
+    background:#38baf6;
+    box-shadow: 3px 3px 10px rgba(56,186,246, 0.4);
+    color: #fff;
+}
